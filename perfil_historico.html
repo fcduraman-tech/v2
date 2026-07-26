@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/perfil_historico_estilo.css">
+    <link rel="icon" href="../assets/img/dm_logo.png" type="image/png">
+    <title>Tablas Pasadas | Duraman FC</title>
+</head>
+<body>
+
+    <a href="jugadores.html" class="btn_volver" aria-label="Volver a la página principal">
+        ← Volver al Inicio
+    </a>
+
+    <header class="header">
+        <div class="marca">
+            <div class="icono_balon">⚽</div>
+            <h1 class="titulo">Duraman FC</h1>
+        </div>
+        <p class="subtitulo">Ficha Histórica Individual</p>
+    </header>
+
+    <main>
+        <!-- ✅ Columna Izquierda -->
+        <div class="columna-perfil">
+            <img src="../assets/img/perfil.png" alt="Perfil" title="Perfil" class="avatar-jugador">
+            
+            <div class="nombre_y_titulo">
+                <h2 id="perf-nombre" class="nombre-jugador">Cargando...</h2>
+                <div id="perf-titulo" class="titulos-jugador">-</div>
+            </div>
+
+            <div class="bloque-estadisticas">
+                <div class="stat-box">
+                    <div id="perf-partidos" class="stat-valor">0</div>
+                    <div class="stat-etiqueta">Partidos</div>
+                </div>
+                <div class="stat-box">
+                    <div id="perf-goles" class="stat-valor">0</div>
+                    <div class="stat-etiqueta">Goles</div>
+                </div>
+                <div class="stat-box">
+                    <div id="perf-asistencias" class="stat-valor">0</div>
+                    <div class="stat-etiqueta">Asistencias</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ✅ Columna Derecha -->
+        <div class="columna-datos">
+            <div class="historial-seccion">
+                <h3 class="historial-titulo">Información del Jugador</h3>
+                <div class="historial-item">
+                    <span>Posición</span>
+                    <strong id="perf-posicion">Cargando...</strong>
+                </div>
+                <div class="historial-item">
+                    <span>Nacionalidad</span>
+                    <strong id="perf-nacionalidad">Cargando...</strong>
+                </div>
+                <div class="historial-item">
+                    <span>Edad</span>
+                    <strong id="perf-edad">0 años</strong>
+                </div>
+            </div>
+
+            <div class="historial-seccion">
+                <h3 class="historial-titulo">Historial de Rendimiento</h3>
+                <div class="historial-item">
+                    <span>Puntaje Histórico</span>
+                    <strong id="perf-puntos" style="color: #00ff87;">0 Pts</strong>
+                </div>
+                <div class="historial-item">
+                    <span>Goles + Asistencias (G+A)</span>
+                    <strong id="perf-gmasa">0</strong>
+                </div>
+                <div class="historial-item">
+                    <span>Promedio Goles (G/P)</span>
+                    <strong id="perf-gp">0.00</strong>
+                </div>
+                <div class="historial-item">
+                    <span>Promedio Asistencias (A/P)</span>
+                    <strong id="perf-ap">0.00</strong>
+                </div>
+                <div class="historial-item">
+                    <span>Distinciones MVP</span>
+                    <strong id="perf-mvp">0</strong>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenido_footer">
+            <p>© 2026 Duraman FC | Todos los derechos reservados</p>
+            <p class="sub_footer">Diseñado para la pasión por el fútbol</p>
+        </div>
+    </footer>
+
+    <script src="../js/perfil_historico_js.js"></script>
+</body>
+</html>

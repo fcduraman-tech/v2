@@ -1,0 +1,16 @@
+@import url(../../assets/css_secundario/colores.css);
+@import url(../tabla_historica_estilo.css);
+
+/* >>>>> HEADER <<<<< */
+.age {
+    color: var(--texto-secundario);
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.leyenda_logros {
+    margin-top: 1rem;
+}
+/* >>>>>>>>>> FIN - HEADER */

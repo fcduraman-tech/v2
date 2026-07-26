@@ -1,0 +1,16 @@
+:root {
+    --fondo-pagina: #05070a;
+    --panel-borde: #1a2332;
+    --panel-fondo: #0d1117;
+    --rojo-acento: #ff3c5c;
+    --tarjeta-fondo: #121823;
+    --tarjeta-hover: #171f2e;
+    --texto-claro: #ffffff;
+    --texto-secundario: #b0bbd9;
+    --texto-tenue: #647092;
+    --verde-borde: rgba(0, 255, 157, 0.5);
+    --verde-luz: rgba(0, 255, 157, 0.2);
+    --verde-principal: #00ff9d;
+    --verde-secundario: #00cc7a;
+    --verde-terciario: #02b970;
+}

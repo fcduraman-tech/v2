@@ -1,0 +1,315 @@
+    @import url(../assets/css_secundario/colores.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    align-items: center;
+    background: radial-gradient(circle at 20% 30%, rgba(0, 255, 157, .07) 0%, transparent 50%), 
+                radial-gradient(circle at 80% 70%, rgba(0, 204, 122, .05) 0%, transparent 50%), 
+                var(--fondo-pagina);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    gap: 1.5rem;
+    height: 100%;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+
+/* >>>>> BOTÓN DE REGRESO <<<<< */
+.btn_volver {
+    align-self: flex-start;
+    background: rgba(22, 28, 42, 0.7);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--panel-borde);
+    border-radius: .8rem;
+    color: var(--texto-secundario);
+    font-size: .9rem;
+    font-weight: 500;
+    padding: .7rem 1.2rem;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.btn_volver:hover {
+    border-color: var(--verde-principal);
+    color: var(--verde-principal);
+    transform: translateX(-3px);
+}
+/* >>>>>>>>> FIN - BOTÓN DE REGRESO */
+
+
+
+
+/* >>>>> HEADER <<<<< */
+header {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.marca {
+    align-items: center;
+    display: flex;
+    gap: .7rem;
+    justify-content: center;
+}
+
+.icono_balon {
+    animation: flotar 3s ease-in-out infinite;
+    font-size: 2.2rem;
+    user-select: none;
+}
+
+@keyframes flotar {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-.4rem); }
+}
+
+.titulo {
+    color: var(--verde-principal);
+    font-size: 2.1rem;
+    font-weight: 900;
+    letter-spacing: .12rem;
+    text-shadow: 0 0 .6rem var(--verde-luz);
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    color: var(--texto-secundario);
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    margin-top: 0.3rem;
+    text-transform: uppercase;
+}
+/* >>>>>>>>>> FIN - HEADER */
+
+
+
+/* >>>>> PANEL PRINCIPAL <<<<< */
+.panel_contenedor {
+    background-color: var(--panel-fondo);
+    border: .12rem solid var(--panel-borde);
+    border-radius: 1.8rem;
+    box-shadow: 0 .9rem 2.5rem rgba(0, 0, 0, .4), inset 0 .05rem 0 rgba(255, 255, 255, .05);
+    max-width: 56rem; 
+    padding: 2.5rem 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.header_panel {
+    margin-bottom: 2rem;
+}
+
+.seccion_titulo {
+    color: var(--texto-claro);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: .7rem;
+    text-transform: uppercase;
+}
+
+.seccion_descripcion {
+    color: var(--texto-secundario);
+    font-size: 0.95rem;
+    line-height: 1.6rem;
+    margin: 0 auto;
+    max-width: 36rem;
+}
+
+
+/* >>>>> GRID DE BOTONES <<<<< */
+.botones_grid {
+    display: grid;
+    gap: 1.2rem; 
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+
+/* >>>>> TABLA <<<<< */
+.btn_card {
+    align-items: center;
+    background: linear-gradient(145deg, var(--tarjeta-fondo), #161c2a);
+    border: .1rem solid var(--panel-borde);
+    border-radius: 1.2rem;
+    color: var(--texto-claro);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    overflow: hidden; 
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+}
+
+.card_icono {
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+    transition: all .3s ease;
+    width: 2.3rem;
+}
+
+.btn_texto {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.btn_subtexto {
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--verde-principal);
+}
+
+.btn_detalle {
+    font-size: 0.7rem;
+    color: var(--texto-secundario);
+    margin-top: 0.3rem;
+}
+
+.btn_card::before {
+    background: linear-gradient(90deg, transparent, var(--verde-luz), transparent);
+    content: '';
+    height: 100%;
+    left: -100%;
+    position: absolute;
+    top: 0;
+    transition: left .5s ease;
+    width: 100%;
+}
+/* >>>>>>>>>> FIN - TABLA */
+
+
+
+
+/* >>>> HOVER: Esto permite activar el hover siempre y cuando exista un cursor <<<< */
+@media (hover: hover) and (pointer: fine) {
+    .btn_card:hover {
+        border-color: var(--verde-principal);
+        box-shadow: 0 .8rem 2rem rgba(0, 0, 0, 0.35), 0 0 1rem var(--verde-luz);
+        transform: translateY(-6px);
+    }
+
+    .btn_card:hover::before {
+        left: 100%;
+    }
+
+    .btn_card:hover .card_icono {
+        transform: scale(1.1);
+    }
+
+    .btn_card:hover .btn_texto {
+        color: var(--verde-luz);
+    }
+}
+/* >>>>>>>>> FIN - HOVER */
+
+
+
+
+/* Para dispositivos táctiles */
+.btn_card:active {
+    transform: scale(0.97);
+    border-color: var(--verde-secundario);
+}
+
+.btn_card:active::before {
+    left: 100%;
+}
+
+
+/* >>>>> MENSAJE <<<<< */
+.proximas_temporadas {
+    border-top: 1px solid var(--panel-borde);
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+}
+
+.texto_secundario {
+    color: var(--texto-secundario);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.pie_pagina {
+    color: var(--texto-secundario);
+    font-size: 0.8rem;
+    margin-top: auto;
+    padding: 1rem;
+    text-align: center;
+}
+/* >>>>>>>>>> FIN - MENSAJE */
+
+
+
+/* >>>>> FOOTER <<<< */
+.footer {
+    color: var(--texto-tenue);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.contenido_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sub_footer {
+    color: var(--texto-tenue);
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+/* >>>>>>>>>> FIN - FOOTER */
+
+
+
+
+/* >>>>>  RESPONSIVE <<<<< */
+@media (max-width: 620px) {
+    body {
+        padding: 1rem;
+    }
+
+    .btn_volver {
+        margin-bottom: 1.5rem;
+        padding: .5rem 1rem;
+    }
+
+    .titulo {
+        font-size: 1.8rem;
+    }
+
+    .seccion_titulo {
+        font-size: 1.4rem;
+    }
+
+    .panel_contenedor {
+        padding: 1.8rem 1.2rem;
+        border-radius: 1.5rem;
+    }
+
+    .botones_grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .btn_card {
+        padding: 1rem;
+    }
+
+    .btn_texto {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Próximamente - Duraman FC</title>
+    <link rel="icon" href="img/dm logo.png" type="image/png">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .proximamente-contenedor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+            text-align: center;
+            padding: 20px;
+        }
+        .icono-construccion {
+            font-size: 5rem;
+            margin-bottom: 20px;
+            /* Pequeña animación para que no se vea tan estático */
+            animation: flotar 3s ease-in-out infinite;
+        }
+        .titulo-proximamente {
+            color: #00ff87;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .texto-proximamente {
+            color: #8c93a6;
+            font-size: 1.2rem;
+            max-width: 500px;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+        
+
+        @keyframes flotar {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="club-header">
+        <h1 class="club-title">Duraman FC</h1>
+        <p class="club-subtitle">SISTEMA EN DESARROLLO</p>
+    </header>
+
+    <main class="proximamente-contenedor">
+        <div class="icono-construccion">🚧</div>
+        <h2 class="titulo-proximamente">Próximamente</h2>
+        <p class="texto-proximamente">Estamos trabajando duro en esta sección para traerte nuevas estadísticas, torneos y más contenido exclusivo del club. ¡Vuelve pronto!</p>
+        
+        <div class="acciones-tabla">
+            <a href="index.html" class="btn-volver">← Volver al Panel</a>
+        </div>
+    </main>
+
+    <footer class="club-footer">
+        <p>© 2026 Duraman FC. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

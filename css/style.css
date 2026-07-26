@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.club-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.club-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #00ff87; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 12px rgba(0, 255, 135, 0.4);
+}
+
+.club-subtitle {
+    font-size: 0.95rem;
+    color: #a0a5b5;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.panel-contenedor {
+    background-color: #11141a; 
+    border: 2px solid #222735;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 850px; 
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 255, 135, 0.05);
+}
+
+.seccion-titulo {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.seccion-descripcion {
+    font-size: 0.95rem;
+    color: #8c93a6;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+
+.menu-botones-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; 
+
+}
+.menu-botones-grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px; 
+
+}
+
+
+
+.boton-tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #171b26;
+    border: 2px solid #00ff87; 
+    border-radius: 12px;
+    padding: 22px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.25s ease-in-out;
+}
+
+.boton-tarjeta:hover {
+    background-color: #00ff87;
+    color: #000000; 
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 255, 135, 0.4);
+}
+
+.btn-icono {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.btn-texto {
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-subtexto {
+    font-size: 0.75rem;
+    color: #8c93a6;
+    margin-top: 5px;
+}
+
+.boton-tarjeta:hover .btn-subtexto {
+    color: #11141a;
+}
+
+@media (max-width: 768px) {
+    .menu-botones-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-botones-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+
+.club-footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #5a6072;
+}
+
+.tabla-contenedor {
+    background-color: #11141a;
+    border: 2px solid #222735;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 1000px; /* Más amplio para que quepa la tabla con holgura */
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 255, 135, 0.05);
+    margin-bottom: 20px;
+}
+
+.tabla-scroll {
+    overflow-x: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    border-bottom: 3px solid #222735;
+}
+
+td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #1f2430;
+    color: #e2e8f0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #171b26;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #11141a;
+}
+
+tbody tr:hover {
+    background-color: #1a2332;
+    transition: background-color 0.15s ease;
+}
+
+.calculado {
+    color: #a0a5b5;
+    font-style: italic;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.destacado {
+    color: #00ff87; 
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+
+.primer-lugar {
+    color: #00ff87;
+    text-shadow: 0 0 5px rgba(0, 255, 135, 0.5);
+}
+
+.titulos-emojis {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+.acciones-tabla {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.btn-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #00ff87;
+    border-radius: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    background-color: transparent;
+}
+
+.btn-volver:hover {
+    background-color: #00ff87;
+    color: #000000;
+}
+.enlace-jugador {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px dashed #00ff87;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.enlace-jugador:hover {
+    color: #00ff87;
+    border-bottom: 1px solid #00ff87;
+}
