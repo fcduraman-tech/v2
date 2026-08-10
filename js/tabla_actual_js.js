@@ -1,26 +1,27 @@
 const jugadores_actual = [
-            { nombre: "Aslan", partidos: 59, goles: 65, asistencias: 32, mvp: 16 },
+            { nombre: "Aslan", partidos: 60, goles: 65, asistencias: 33, mvp: 16 },
             { nombre: "Dawins", partidos: 53, goles: 45, asistencias: 37, mvp: 16 },
-            { nombre: "Wenderly", partidos: 46, goles: 46, asistencias: 19, mvp: 6 },
+            { nombre: "Wenderly", partidos: 47, goles: 50, asistencias: 19, mvp: 6 },
             { nombre: "Eliant", partidos: 40, goles: 31, asistencias: 21, mvp: 4 },
-            { nombre: "Sebastián", partidos: 58, goles: 32, asistencias: 14, mvp: 17 },
+            { nombre: "Sebastián", partidos: 59, goles: 33, asistencias: 15, mvp: 17 },
             { nombre: "Jeremy", partidos: 46, goles: 25, asistencias: 14, mvp: 3 },
-            { nombre: "Daniel", partidos: 42, goles: 20, asistencias: 20, mvp: 7 },
-            { nombre: "Joelfry", partidos: 46, goles: 23, asistencias: 12, mvp: 7 },
-            { nombre: "Nicolás", partidos: 55, goles: 13, asistencias: 18, mvp: 5 },
-            { nombre: "Adonys", partidos: 36, goles: 11, asistencias: 7, mvp: 4 },
+            { nombre: "Daniel", partidos: 43, goles: 20, asistencias: 20, mvp: 7 },
+            { nombre: "Joelfry", partidos: 47, goles: 25, asistencias: 12, mvp: 7 },
+            { nombre: "Nicolás", partidos: 56, goles: 13, asistencias: 19, mvp: 5 },
+            { nombre: "Adonys", partidos: 37, goles: 13, asistencias: 7, mvp: 4 },
             { nombre: "Dylan", partidos: 17, goles: 8, asistencias: 8, mvp: 1 },
             { nombre: "Gari", partidos: 15, goles: 4, asistencias: 10, mvp: 3 },
             { nombre: "Welfry", partidos: 13, goles: 9, asistencias: 2, mvp: 1 },
-            { nombre: "Geraldo", partidos: 48, goles: 2, asistencias: 9, mvp: 5 },
-            { nombre: "Christian", partidos: 11, goles: 0, asistencias: 8, mvp: 1 },
+            { nombre: "Geraldo", partidos: 49, goles: 2, asistencias: 10, mvp: 5 },
+            { nombre: "Christian", partidos: 12, goles: 0, asistencias: 9, mvp: 1 },
             { nombre: "Oscar", partidos: 32, goles: 5, asistencias: 1, mvp: 8 },
             { nombre: "Leo", partidos: 39, goles: 3, asistencias: 1, mvp: 4 },
             { nombre: "Obed", partidos: 11, goles: 2, asistencias: 2, mvp: 3 },
             { nombre: "Lecnar", partidos: 42, goles: 0, asistencias: 0, mvp: 2 },
-            { nombre: "Abiel", partidos: 2, goles: 0, asistencias: 0, mvp: 1 },
+            { nombre: "Abiel", partidos: 3, goles: 0, asistencias: 1, mvp: 1 },
             { nombre: "Erick", partidos: 2, goles: 0, asistencias: 0, mvp: 0 },
-            { nombre: "Niño", partidos: 2, goles: 0, asistencias: 0, mvp: 1 }
+            { nombre: "Niño", partidos: 2, goles: 0, asistencias: 0, mvp: 1 },
+            { nombre: "Jacob", partidos: 1, goles: 0, asistencias: 0, mvp: 0 }
 ];
 
 

@@ -13,7 +13,7 @@
   { nombre: "Gari", partidos: 45, goles: 11, asistencias: 24, mvp: 3, posicion: "DFC/MC", nacionalidad: "Dominicano 🇩🇴", edad: 19 },
   { nombre: "Adonys", partidos: 48, goles: 20, asistencias: 7, mvp: 4, posicion: "PO/DFC/DC", nacionalidad: "Dominicano 🇩🇴", edad: 20 },
   { nombre: "Leo", partidos: 107, goles: 9, asistencias: 22, mvp: 4, posicion: "DFC/MCD/PO", nacionalidad: "Dominicano 🇩🇴", edad: 20 },
-  { nombre: "Nicolás", partidos: 55, goles: 13, asistencias: 18, mvp: 5, posicion: "DFC/MC", nacionalidad: "Dominicano 🇩🇴", edad: 14 },
+  { nombre: "Nicolás", partidos: 55, goles: 13, asistencias: 18, mvp: 5, posicion: "DFC/MC/LD", nacionalidad: "Dominicano 🇩🇴", edad: 14 },
   { nombre: "Keurys", partidos: 28, goles: 13, asistencias: 8, mvp: 0, posicion: "EI", nacionalidad: "Dominicano 🇩🇴", edad: 16 },
   { nombre: "Geraldo", partidos: 68, goles: 6, asistencias: 19, mvp: 5, posicion: "DFC", nacionalidad: "Dominicano 🇩🇴", edad: 18 },
   { nombre: "Dylan", partidos: 17, goles: 8, asistencias: 8, mvp: 1, posicion: "MCO/ED", nacionalidad: "Dominicano 🇩🇴", edad: 14 },
@@ -25,7 +25,7 @@
   { nombre: "Jacob", partidos: 4, goles: 2, asistencias: 2, mvp: 0, posicion: "DC", nacionalidad: "Dominicano 🇩🇴", edad: 13 },
   { nombre: "Erick", partidos: 5, goles: 2, asistencias: 0, mvp: 0, posicion: "DFC", nacionalidad: "Dominicano 🇩🇴", edad: 18 },
   { nombre: "Lecnar", partidos: 42, goles: 0, asistencias: 0, mvp: 2, posicion: "DFC/PO", nacionalidad: "Dominicano 🇩🇴", edad: 17 },
-  { nombre: "Abiel", partidos: 2, goles: 0, asistencias: 0, mvp: 1, posicion: "N/A", nacionalidad: "Dominicano 🇩🇴", edad: 14 },
+  { nombre: "Abiel", partidos: 2, goles: 0, asistencias: 0, mvp: 1, posicion: "DFC/PO", nacionalidad: "Dominicano 🇩🇴", edad: 14 },
   { nombre: "Niño", partidos: 2, goles: 0, asistencias: 0, mvp: 1, posicion: "N/A", nacionalidad: "Dominicano 🇩🇴", edad: "N/A" }
 ];
 

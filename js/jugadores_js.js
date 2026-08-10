@@ -1,5 +1,5 @@
-const jugadores = [
-    { nombre: "Aslan", partidos: 189, goles: 242, asistencias: 125, mvp: 16, posicion: "DC/EI/MCO", nacionalidad: "Venezolano 🇻🇪", edad: 19 },
+ const jugadores_historia = [
+{ nombre: "Aslan", partidos: 189, goles: 242, asistencias: 125, mvp: 16, posicion: "DC/EI/MCO", nacionalidad: "Venezolano 🇻🇪", edad: 19 },
   { nombre: "Dawins", partidos: 183, goles: 206, asistencias: 122, mvp: 16, posicion: "ED/MCO/MC", nacionalidad: "Dominicano 🇩🇴", edad: 18 },
   { nombre: "Wenderly", partidos: 137, goles: 186, asistencias: 57, mvp: 6, posicion: "DC/EI/ED", nacionalidad: "Haitiano 🇭🇹", edad: 19 },
   { nombre: "Sebastián", partidos: 174, goles: 106, asistencias: 51, mvp: 17, posicion: "DFC/DC", nacionalidad: "Venezolano 🇻🇪", edad: 21 },
@@ -13,7 +13,7 @@ const jugadores = [
   { nombre: "Gari", partidos: 45, goles: 11, asistencias: 24, mvp: 3, posicion: "DFC/MC", nacionalidad: "Dominicano 🇩🇴", edad: 19 },
   { nombre: "Adonys", partidos: 48, goles: 20, asistencias: 7, mvp: 4, posicion: "PO/DFC/DC", nacionalidad: "Dominicano 🇩🇴", edad: 20 },
   { nombre: "Leo", partidos: 107, goles: 9, asistencias: 22, mvp: 4, posicion: "DFC/MCD/PO", nacionalidad: "Dominicano 🇩🇴", edad: 20 },
-  { nombre: "Nicolás", partidos: 55, goles: 13, asistencias: 18, mvp: 5, posicion: "DFC/MC", nacionalidad: "Dominicano 🇩🇴", edad: 14 },
+  { nombre: "Nicolás", partidos: 55, goles: 13, asistencias: 18, mvp: 5, posicion: "DFC/MC/LD", nacionalidad: "Dominicano 🇩🇴", edad: 14 },
   { nombre: "Keurys", partidos: 28, goles: 13, asistencias: 8, mvp: 0, posicion: "EI", nacionalidad: "Dominicano 🇩🇴", edad: 16 },
   { nombre: "Geraldo", partidos: 68, goles: 6, asistencias: 19, mvp: 5, posicion: "DFC", nacionalidad: "Dominicano 🇩🇴", edad: 18 },
   { nombre: "Dylan", partidos: 17, goles: 8, asistencias: 8, mvp: 1, posicion: "MCO/ED", nacionalidad: "Dominicano 🇩🇴", edad: 14 },
