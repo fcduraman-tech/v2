@@ -26,7 +26,8 @@
   { nombre: "Erick", partidos: 5, goles: 2, asistencias: 0, mvp: 0, posicion: "DFC", nacionalidad: "Dominicano 🇩🇴", edad: 18 },
   { nombre: "Lecnar", partidos: 42, goles: 0, asistencias: 0, mvp: 2, posicion: "DFC/PO", nacionalidad: "Dominicano 🇩🇴", edad: 17 },
   { nombre: "Abiel", partidos: 2, goles: 0, asistencias: 0, mvp: 1, posicion: "DFC/PO", nacionalidad: "Dominicano 🇩🇴", edad: 14 },
-  { nombre: "Niño", partidos: 2, goles: 0, asistencias: 0, mvp: 1, posicion: "N/A", nacionalidad: "Dominicano 🇩🇴", edad: "N/A" }
+  { nombre: "Niño", partidos: 2, goles: 0, asistencias: 0, mvp: 1, posicion: "N/A", nacionalidad: "Dominicano 🇩🇴", edad: "N/A" },
+  { nombre: "Josue", partidos: 1, goles: 0, asistencias: 0, mvp: 0, posicion: "N/A", nacionalidad: "Dominicano 🇩🇴", edad: "N/A" }
 ];
 
 let maxGoles = 0, maxAsistencias = 0, maxGMasA = 0, maxMvp = 0;
