@@ -29,7 +29,6 @@
   { nombre: "Niño", partidos: 2, goles: 0, asistencias: 0, mvp: 1, posicion: "N/A", nacionalidad: "Dominicano 🇩🇴", edad: "N/A" },
   { nombre: "Josue", partidos: 1, goles: 0, asistencias: 0, mvp: 0, posicion: "N/A", nacionalidad: "Dominicano 🇩🇴", edad: "N/A" }
 ];
-
 let maxGoles = 0, maxAsistencias = 0, maxGMasA = 0, maxMvp = 0;
 
 jugadores.forEach(j => {
