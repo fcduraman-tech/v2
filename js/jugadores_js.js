@@ -1,4 +1,4 @@
- const jugadores_historia = [
+ const jugadores = [
 { nombre: "Aslan", partidos: 189, goles: 242, asistencias: 125, mvp: 16, posicion: "DC/EI/MCO", nacionalidad: "Venezolano 🇻🇪", edad: 19 },
   { nombre: "Dawins", partidos: 183, goles: 206, asistencias: 122, mvp: 16, posicion: "ED/MCO/MC", nacionalidad: "Dominicano 🇩🇴", edad: 18 },
   { nombre: "Wenderly", partidos: 137, goles: 186, asistencias: 57, mvp: 6, posicion: "DC/EI/ED", nacionalidad: "Haitiano 🇭🇹", edad: 19 },
