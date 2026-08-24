@@ -7,7 +7,7 @@ const jugadores_actual = [
             { nombre: "Jeremy", partidos: 46, goles: 25, asistencias: 14, mvp: 3 },
             { nombre: "Daniel", partidos: 44, goles: 20, asistencias: 20, mvp: 7 },
             { nombre: "Joelfry", partidos: 50, goles: 25, asistencias: 14, mvp: 7 },
-            { nombre: "Nicolás", partidos: 59 goles: 13, asistencias: 19, mvp: 5 },
+            { nombre: "Nicolás", partidos: 59, goles: 13, asistencias: 19, mvp: 5 },
             { nombre: "Adonys", partidos: 39, goles: 16, asistencias: 7, mvp: 7 },
             { nombre: "Dylan", partidos: 18, goles: 8, asistencias: 8, mvp: 1 },
             { nombre: "Gari", partidos: 15, goles: 4, asistencias: 10, mvp: 3 },
