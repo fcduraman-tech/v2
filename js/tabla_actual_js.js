@@ -1,11 +1,11 @@
 const jugadores_actual = [
             { nombre: "Aslan", partidos: 70, goles: 74, asistencias: 37, mvp: 20 },
             { nombre: "Dawins", partidos: 62, goles: 49, asistencias: 40, mvp: 16 },
-            { nombre: "Wenderly", partidos: 55, goles: 57, asistencias: 20, mvp: 7 },
+            { nombre: "Wenderly", partidos: 55, goles: 57, asistencias: 20, mvp: 8 },
             { nombre: "Eliant", partidos: 46, goles: 36, asistencias: 22, mvp: 5 },
             { nombre: "Sebastián", partidos: 67, goles: 40, asistencias: 21, mvp: 20 },
             { nombre: "Jeremy", partidos: 46, goles: 25, asistencias: 14, mvp: 3 },
-            { nombre: "Daniel", partidos: 45, goles: 22, asistencias: 20, mvp: 9 },
+            { nombre: "Daniel", partidos: 45, goles: 21, asistencias: 20, mvp: 8 },
             { nombre: "Joelfry", partidos: 57, goles: 28, asistencias: 15, mvp: 8 },
             { nombre: "Nicolás", partidos: 66, goles: 15, asistencias: 20, mvp: 5 },
             { nombre: "Adonys", partidos: 44, goles: 17, asistencias: 10, mvp: 9 },
